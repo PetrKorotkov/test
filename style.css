@@ -1,0 +1,123 @@
+.links {
+    position: absolute;
+    list-style-type: none;
+    font-size: 20px;
+    right: 0;
+    top: 5%;
+}
+
+.links a {
+    color: olivedrab;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.links a:hover {
+    color: orange;
+}
+
+.goods {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.goods a {
+    color:teal;
+    text-decoration: none;
+}
+
+.goods a:hover {
+    color:indigo;
+}
+
+/*.goods img {
+    outline: 2px solid #666;
+}*/
+
+.connection {
+    text-decoration: none;
+    color:palevioletred;
+    font-size: 20px;
+}
+
+.header {
+    position: relative;
+    height: 120px;
+    top: 0%;
+    text-align: center;
+    background-color: rgb(196, 187, 216);
+}
+
+.header>img{
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+}
+
+.footer {
+    text-align: left;
+    background-color:tan;
+    height: 70px;
+}
+
+.container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.good-TR3 {
+    float: left;
+    margin: 20px 30px 30px 0px;
+}
+
+.good-TR3>form>Button {
+    font-size: 20px;
+}
+
+.discription {
+    font-size: 22px;
+    width: 75%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.characteristics {
+    float: left;
+    margin: 0px 0px 20px 20px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.item-card {
+    display: inline-block;
+    width: 300px;
+    margin-right: 70px;
+}
+
+.item-card:hover {
+    outline: 2px solid rgb(5, 116, 207);
+}
+
+.name {
+    display: inline-block;
+    width: 70%;
+}
+
+.price {
+    display: inline-block;
+}
+
+.text-card {
+    font: 14px;
+    text-align: left;
+    margin: auto;
+    color: rgb(34, 110, 85);
+}
